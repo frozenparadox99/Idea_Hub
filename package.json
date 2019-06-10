@@ -1,0 +1,33 @@
+{
+  "name": "proj_idea_app",
+  "version": "1.0.0",
+  "description": "app to log and push ideas ",
+  "main": "index.js",
+  "scripts": {
+    "start":"node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frozenparadox99/Idea_Hub.git"
+  },
+  "author": "sushant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frozenparadox99/Idea_Hub/issues"
+  },
+  "homepage": "https://github.com/frozenparadox99/Idea_Hub#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "ejs": "^2.6.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.16.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.5.14",
+    "nodemon": "^1.19.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  }
+}
